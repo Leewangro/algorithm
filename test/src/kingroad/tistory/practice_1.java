@@ -14,7 +14,7 @@ public class practice_1 {
 
 	public static int[] solution(int[] lottos, int[] win_nums) {
 		int countLotto = 0;
-		int countZero = 0;
+		int countZero = 0; 
 		int totVal = 0;
 
 		// 입력 로또 번호랑 당첨 로또번호 비교
