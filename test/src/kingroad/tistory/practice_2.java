@@ -8,8 +8,8 @@ public class practice_2 {
 		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
-		int a = sc.nextInt(); // 입력받은 행 갯수
-		int b = sc.nextInt(); // 입력받은 열 갯수
+		int a = sc.nextInt(); // 입력받은 열 갯수
+		int b = sc.nextInt(); // 입력받은 행 갯수
 
 		for (int i = 0; i < b; i++) {
 			for( int j = 0 ; j < a; j++) {
