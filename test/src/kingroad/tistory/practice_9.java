@@ -12,7 +12,7 @@ public class practice_9 {
 
 	public static int[] solution(int n, int m) {
 		// 최소공배수 : (a*b) / (최대공약수)
-		// 최대공약수 : a mod b
+		// 최대공약수 : (a % b)를 활용하여 더 이상 나머지가 나오지 않을때 까지 반복한다.
 		int big = (n > m) ? n : m;
 		int small = (n < m) ? n : m;
 		int[] answer = new int[2];
