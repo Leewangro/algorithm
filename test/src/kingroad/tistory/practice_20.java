@@ -1,8 +1,5 @@
 package kingroad.tistory;
 
-import java.util.Arrays;
-import java.util.Collections;
-
 public class practice_20 {
 
 	public static void main(String[] args) {
